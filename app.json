@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "iTao装",
+    "backgroundColor": "#f1f1f1",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  }
+}
