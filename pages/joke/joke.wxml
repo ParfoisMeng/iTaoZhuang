@@ -1,0 +1,19 @@
+<!--pages/joke/joke.wxml-->
+<view class="container joke-list">
+  <view wx:if="{{isEmpty}}">
+    <text>暂无数据</text>
+  </view>
+  <block wx:else>
+    <block wx:for="{{jokes}}" wx:for-item="joke">
+      <view class="joke-item">
+        <view class="joke-item-desc">
+          <!-- <image src="{{joke.thumbnail}}"></image> -->
+          <text>{{joke.text}}</text>
+        </view>
+        <view class="new-img-info">
+        <video src='{{joke.video}}'></video>
+        </view>
+      </view>
+    </block>
+  </block>
+</view>

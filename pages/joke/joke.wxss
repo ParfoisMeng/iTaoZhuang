@@ -1,0 +1,12 @@
+/* pages/joke/joke.wxss */
+
+.joke-list {
+  display: flex;
+  flex-direction: column;
+  padding: 40rpx;
+}
+
+.joke-item {
+  margin: 10rpx;
+  border: 1px, #fff;
+}
