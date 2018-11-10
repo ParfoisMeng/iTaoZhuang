@@ -15,17 +15,17 @@ Page({
       url: '../logs/logs'
     })
   },
-  toJokePage: function() {
-    if (!this.data.hasUserInfo && this.data.canIUse) {
-      wx.showToast({
-        title: "还没有登录哦 :-O",
-        icon: "none"
-      })
-    } else {
+  toToolsPage: function() {
+    // if (!this.data.hasUserInfo && this.data.canIUse) {
+    //   wx.showToast({
+    //     title: "还没有登录哦 :-O",
+    //     icon: "none"
+    //   })
+    // } else {
       wx.navigateTo({
-        url: '../joke/joke'
+        url: '../tools/tools'
       })
-    }
+    // }
   },
   onLoad: function() {
     if (app.globalData.userInfo) {

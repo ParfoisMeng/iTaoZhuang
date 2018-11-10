@@ -2,7 +2,7 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "pages/joke/joke"
+    "pages/tools/tools"
   ],
   "window": {
     "navigationBarBackgroundColor": "#ffffff",

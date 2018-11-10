@@ -1,9 +1,21 @@
 /**index.wxss**/
+
 .userinfo {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
+.userinfo-button {
+  line-height: 50rpx;
+  padding: 25rpx 40rpx;
+}
+
+/* 
+.userinfo-button::after {
+  border: none;
+}
+ */
 
 .userinfo-avatar {
   width: 128rpx;

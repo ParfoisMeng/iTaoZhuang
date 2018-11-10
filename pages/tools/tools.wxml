@@ -1,0 +1,10 @@
+<!--pages/tools/tools.wxml-->
+<view class="container tool-list">
+  <block wx:for="{{tools}}" wx:for-item="tool" wx:key="tools">
+    <view class="tool-item" bindtap="clickTool({{index}})">
+      <image class="tool-item-img" src="{{tool.image}}"></image>
+      <text class="tool-item-text">{{tool.name}}</text>
+    </view>
+    <view class="tool-item-line"></view>
+  </block>
+</view>
